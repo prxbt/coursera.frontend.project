@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<section>
+ <div class="navbar">
+ <div class="navbar-1">
+  <h2 style="margin-bottom:5px;">Prabhat Kumar</h2>
+   
+   <div class="phoneno">
+  <img src="./images/phone.png" alt="" width="15px" >
+  <small style="font-style: italic;">0123456789</small>
+  </div>
+
+  <div>
+  <img src="./images/gmail.png" alt="" width="15px">
+  <small style="font-style: italic;">prabhuonxxx@gmail.com</small>
+  </div>
+
+ </div>
+
+ <div class="navbar-2">
+   <div >
+      <p >About me</p>
+   </div>
+    <div>
+      <p>Skills</p>
+    </div>
+    <div>
+     <p>Projects</p>
+    </div>
+    <div>
+    <p>Recommendations</p>
+    </div>
+ </div>
+
+ </div>
+
+</section>
+
+<!-- About Me -->
+
+<section>
+
+<div class="aboutme">
+ <div class="profilepic">
+    <img src="./images/prxbt.jpg" alt="" width="150px" >
+ </div>
+    <div class="aboutme-1">
+    <h3 style="color: blueviolet;">Hi , I am Prabhat .</h3>
+    <p>
+    I am a student of B.Tech in Computer Science and Engineering at XYZ University. I am a self-motivated person and a quick learner. I am always ready to learn new things and I am a team player. I am a hardworking person and I am always ready to take new challenges.
+    </p>
+    </div>
+
+</div>
+</section>
+
+<!-- Skills -->
+<skills>
+<div class="skills">
+  <div class="card">
+    <img src="./images/html.png.png" alt="" width="90px" >
+    <p>HTML</p>
+    <p>Experience : 2year</p>
+    
+  </div>
+
+ <div class="card">
+    <img src="./images/css.png" alt="" width="90px" >
+    <p>CSS</p>
+    <p>Experience : 2year</p>
+    
+  </div>
+
+<div class="card">
+    <img src="./images/javascript.png" alt="" width="90px" >
+    <p>JavaScript</p>
+    <p>Experience : 2year</p>
+    
+  </div>
+
+
+  <div class="card">
+    <img src="./images/react.png" alt="" width="90px" >
+    <p>React</p>
+    <p>Experience : 2year</p>
+    
+  </div>
+
+
+ <div class="card">
+    <img src="./images/c++.png.png" alt="" width="90px" >
+    <p>C++</p>
+    <p>Experience : 2year</p>
+    
+  </div>
+
+</div>
+</skills>
+
+<!-- Projects -->
+
+<Projects>
+
+  <div class="project">
+
+  <h2 style="color: rgb(67, 15, 115);">Projects</h2>
+    <div class="project-2-1">
+      <h4>Project 1</h4>
+      <ul>
+       <li><p>Project Description</p> </li>
+       </ul>
+
+    </div>
+     
+     <hr style="margin: 3% 10%">
+
+    <div class="project-2-2">
+      <h4>Project 2</h4>
+     <ul>
+       <li><p>Project Description</p> </li>
+       </ul>
+    </div>
+
+    <hr style="margin: 3% 10%">
+
+    <div class="project-2-3">
+      <h4>Project 3</h4>
+      <ul>
+       <li><p>Project Description</p> </li>
+       </ul>
+    </div>
+   
+  </div>
+</Projects>
+
+<!-- Recommendations -->
+
+<Recommendations>
+
+
+<h2 style="color: rgb(67, 15, 115); margin-top:15vh ; margin-left:9% ;">Recommendations</h2>
+
+<div class="recommendations" id="recommendationx">
+
+ 
+
+  <div  class="card2">
+    <q style="font-style: italic;">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint o
+
+    </q>
+  </div>
+
+  <div  class="card2">
+    <q style="font-style: italic;">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint o
+
+    </q>
+  </div>
+
+   <div  class="card2">
+    <q style="font-style: italic;">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint o
+
+    </q>
+  </div>
+</div>
+
+
+
+</Recommendations>
+
+<!-- Leave a recommendation -->
+
+<section>
+  
+ <h2 style="color: rgb(67, 15, 115); margin-top:10vh ; margin-left:9% ;"> Leave a recommendation</h2>
+
+ <div class="feedback">
+  <form action="">
+  
+  <input type="text" name="name" id="input-name" placeholder="name( optional)" style="width: 60%;">
+  <textarea name="input-recommendation" id="newRecommendation"  rows="10" style="width: 60%;" placeholder="Write your recommendation here"></textarea>
+  <input type="button" value="Submit" style="width: 60%; background-color: blueviolet; " onclick=" addRecommendation() ">
+ </div>
+
+ </form>
+
+</section>
+
+<script>
+   
+  function addRecommendation()
+  {
+    var content=document.getElementById('newRecommendation').value;
+     var recommendationElement = document.createElement('div');
+    recommendationElement.className = 'card2'; // Optional: Apply a CSS class
+    recommendationElement.innerHTML = '<q style="font-style: italic;">' + content + '</q>';
+
+    // Append the new element to the "Recommendations" section
+    document.getElementById('recommendationx').appendChild(recommendationElement);
+   
+   
+    location.reload;
+
+    // Clear the text area after adding the recommendation
+
+    document.getElementById('newRecommendation').value = '';
+
+    confirm("Thank You for your recommendation !");
+
+    
+  
+}
+
+function fun()
+{
+    
+}
+
+  
+
+</script>
+
+    
+</body>
+</html>

@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(189, 149, 226); 
+    justify-content: space-between;
+    align-items: center;
+    padding-left:20px ;
+    padding-right: 10px;
+    padding-bottom: 2vh;
+
+}
+
+.navbar-1{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navbar-2{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 600px;
+}
+
+.navbar-2 *{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+
+    
+}
+
+.navbar-2 *:hover{
+    background-color: rgb(189, 149, 226);
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+    
+
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+ 
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.aboutme-1{
+    text-align: left;
+    font-size:15px ;
+    width: 30%;
+}
+
+.profilepic{
+    width:30%;
+    margin-left:15%
+}
+
+.skills{
+    margin-top:1.5%;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* background-color: rgb(227, 220, 233); */
+    color: black;
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    width: 170px;
+    box-shadow: 4px 4px 4px 4px rgba(122, 47, 47, 0.2);
+    text-align: center;
+    margin-left: 5%;
+    border-radius:5% ;
+    background-color: rgb(178, 117, 195);
+    margin-bottom: 10vh;
+  
+
+}
+
+.project{
+    margin-top:5%;
+    margin-left: 10% ;
+}
+
+.recommendations{
+    margin-top: 2vh;
+    display:flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.recommendations div
+{
+  width: 300px;
+  height: 200px;
+  box-shadow: 4px 4px 4px 4px rgba(122, 47, 47, 0.2);
+  margin-bottom:10vh ;
+
+
+}
+
+.card2{
+    width: 300px;
+    box-shadow: 4px 4px 4px 4px rgba(122, 47, 47, 0.2);
+    text-align: left;
+   
+    border-radius:5% ;
+    background-color: rgb(227, 154, 247);
+    padding: 15px;
+    padding-left:10px ;
+
+}
+
+.feedback{
+
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    
+    
+
+}
+
+.feedback *{
+    margin-bottom:2% ;
+    
+}
+
