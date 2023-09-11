@@ -207,15 +207,15 @@
 
     // Append the new element to the "Recommendations" section
     document.getElementById('recommendationx').appendChild(recommendationElement);
+    document.getElementById('newRecommendation').value = '';
    
-   
-    location.reload;
+      setTimeout(fun, 1000);
 
     // Clear the text area after adding the recommendation
 
-    document.getElementById('newRecommendation').value = '';
+   
 
-    confirm("Thank You for your recommendation !");
+    
 
     
   
@@ -223,7 +223,7 @@
 
 function fun()
 {
-    
+    confirm("Thank You for your recommendation !");
 }
 
   
